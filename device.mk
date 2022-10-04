@@ -252,6 +252,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/nfc/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+# Make it official
+OFFICIAL_BUILD := true
+
 # Overlays
 PRODUCT_PACKAGES += \
     AliothFrameworks \
@@ -259,6 +262,7 @@ PRODUCT_PACKAGES += \
     AliothSystemUI \
     AOSPAAliothFrameworks \
     AOSPAAliothSystemUI \
+    FlamingoAliothSettings \
     FrameworksResTarget \
     SettingsOverlayM2012K11AG \
     SettingsOverlayM2012K11AI \

@@ -13,6 +13,7 @@
 # limitations under the License.
 
 DEVICE_PATH := device/xiaomi/alioth
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 # A/B
 AB_OTA_UPDATER := true
